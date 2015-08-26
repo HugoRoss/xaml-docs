@@ -49,7 +49,7 @@ Internally there are many mechanisms used to lower the number of calculations, b
 Note that if an exception is thrown between the two method calls, the resuming of the layout update will not be performed and the UI will stop updating. The way to ensure the layout update will be resumed whatever happens is to use __UpdateScope__. The code snippet in __Example 2__ demonstrates how to use it.
         
 
-#### __[C#] Example 2: Suspend Layout Updates in UndoScope__
+#### __[C#] Example 2: Suspend Layout Updates in UpdateScope__
 
 {{region radspreadprocessing-performance_1}}
     Workbook workbook = new Workbook();
